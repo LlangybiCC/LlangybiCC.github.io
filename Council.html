@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+   <link rel="icon" href="Images\favicon.ico.ico">
+
+    <title>LlangybiCC- Community Council</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="CSS\MasterCSS.css" />
+	<link rel="stylesheet" type="text/css" href="CSS\Council.css"/>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="CSS\navbar-fixed-top.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+		<!--[if !IE]><!-->
+	<style>
+	@media screen and (max-width: 800px),(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+		/* Force table to not be like tables anymore */
+		#memberstable table, #memberstable thead, #memberstable tbody, #memberstable th, #memberstable td, #memberstable tr {
+			display: block;
+		}
+
+		#memberstable tr { border: 1px solid #ccc; }
+
+		#memberstable td {
+			/* Behave  like a "row" */
+			border: none;
+			border-bottom: 1px solid #eee;
+			position: relative;
+			padding-left: 50%;
+		}
+
+		#memberstable td:before {
+			/* Now like a table header */
+			position: absolute;
+			/* Top/left values mimic padding */
+			top: 6px;
+			left: 6px;
+			width: 45%;
+			padding-right: 10px;
+			white-space: nowrap;
+		}
+
+		/*
+		Label the data
+		*/
+		#memberstable td:nth-of-type(2):before { content: "Name"; }
+		#memberstable td:nth-of-type(3):before { content: "Position"; }
+		#memberstable td:nth-of-type(4):before { content: "Area"; }
+		
+		<!-- #LlangybiCCLogo{padding-top: 80px;} -->
+
+	</style>
+	<!--<![endif]-->	
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Llangybi Community Council</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+		  
+            <li class="active"><a href="index.html">Home</a></li>
+         
+            <li class="dropdown">
+              <a href="Council.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community Council <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="Council.html#MeetingDates">Meeting Dates</a></li>
+				<li><a href="Council.html#CouncilMembers">Council Members</a></li>
+				<li><a href="Council.html#Minutes">Minutes</a></li>
+				<li><a href="Council.html#PlanningApplications">Planning Applications</a></li>
+				<li><a href="Council.html#OtherDoc">Further Documentation</a></li>
+              </ul>
+            </li>
+			
+			   <li class="dropdown">
+              <a href="GetOutdoors.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Outdoors <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="GetOutdoors.html#walk1">Walk One</a></li>
+				<li><a href="GetOutdoors.html#walk2">Walk Two</a></li>
+				<li><a href="GetOutdoors.html#walk3">Walk Three</a></li>
+				<li><a href="GetOutdoors.html#walk4">Walk Four</a></li>
+				 <li role="separator" class="divider"></li>
+				<li><a href="GetOutdoors.html#CountryCode">The Countryside Code</a></li>
+              </ul>
+            </li>
+			
+			 <li class="dropdown">
+              <a href="Local Amenities Opening Times.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Useful Links <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+			  <li><a href="Defibrillator Locations.html">Defibrillator Locations</a></li>
+                <li><a href="Local Amenities Refuse.html">Refuse Collection</a></li>
+				<li><a href="Local Amenities Opening Times.html">Food and Drink</a></li>
+				<li><a href="Local Organisations.html">Local Organisations</a></li>
+				<li><a href="Local Amenities Churches.html">Churches</a></li>
+				 <li role="separator" class="divider"></li>
+				<li><a href="GwentNow.html"><img src="Images\Gwent Nowtrans.png" width="70" height="auto"/></a></li>
+				 <li role="separator" class="divider"></li>
+                <!-- <li class="dropdown-header">Nav header</li> -->
+				<li><a href="PhotoGallery.html">Photo Gallery</a></li>
+              </ul>
+            </li>
+			
+			  <li><a href="Events.html">Events</a></li>
+			  <li><a href="ContactUs.html">Contact Us</a></li>
+			
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+	<div id="CentrePage">
+	<!---Header Logo Start-->
+<div id="LlangybiCCLogo">
+<a href="Index.html"><img src="Images\LlangybiCC logo.jpg" alt="Llangybi Community Council Logo" title="Llangybi Community Council Logo" width="300" height="auto"/></a>
+</div>
+<hr/>
+<!---Header Logo End-->
+<!---Contents-->
+
+<div id="MeetingDates">
+<h2> Meeting dates- 2016 </h2>
+<p><b>Please download the agenda for the upcoming meeting to find out more information</b></p>
+<p>Members of the general public and press can attend the initial part of each meeting</p>
+<p>Start times can vary, please see the agenda to find the time of an upcoming meeting</p>
+</div>
+<div id="dates">
+<table>
+	<tr>
+	<td>April 19th</td>
+	<td><a href="Documents\April 16 Notice.doc" download><img  border="0" src="Images\Download Minutes.png" alt="Download Map" width="150" height="auto"/></a></td>
+	</tr>
+	<tr>
+	<td>May 17th</td>
+	</tr>
+	<tr>
+	<td>June 21th</td>
+	</tr>
+	<tr>
+	<td>July 19th</td>
+	</tr>
+	<tr>
+	<td>August 16th</td>
+	</tr>
+	<tr>
+	<td>September 20th</td>
+	</tr>
+	<tr>
+	<td>October 18th</td>
+	</tr>
+	<tr>
+	<td>November 15th</td>
+	</tr>
+	<tr>
+	<td>December 20th</td>
+	</tr>
+</table>
+</div>
+<hr />
+<div id="CouncilMembers">
+<h2> Council Members</h2>
+</div>
+<div id="memberstable">
+<table>
+	<!-- <th></th>
+	<th></th>
+	<th></th>
+	<th>Area</th> -->
+	<tr><!---Row-->
+		<td><img src="Images\Graham_Rogers.JPG" alt= "GrahamRogers"/></td></td>
+		<td>Graham Rogers</td>
+		<td>Chairman</td>
+		<td>Coed-y-Paen</td>
+	</tr>
+	<tr><!---Row-->
+		<td><img src="Images\Peter_Dale.JPG" alt= "PeterDale"/></td>
+		<td>Peter Dale</td>
+		<td>Vice Chair</td>
+		<td>Llandegfedd</td>
+	</tr>
+	<tr><!---Row-->
+		<td><img src="Images\Guest.png" alt= "AlanBrowne"/></td></td>
+		<td>Alan Browne</td>
+		<td>Clerk</td>
+		<td>-----</td>
+	</tr>
+	<tr><!---Row-->
+		<td><img src="Images\John_Love.JPG" alt= "John Love"/></td></td>
+		<td>John Love</td>
+		<td>Councillor</td>
+		<td>Llangybi</td>
+	</tr>
+	<tr><!---Row-->
+		<td><img src="Images\Caroline Watts.JPG" alt= "Caroline Watts"/></td></td>
+		<td>Caroline Watts</td>
+		<td>Councillor</td>
+		<td>Llangybi</td>
+	</tr>
+	<tr><!---Row-->
+		<td><img src="Images\Irene_Cameron.JPG" alt= "Irene Cameron"/></td></td>
+		<td>Irene Cameron</td>
+		<td>Councillor</td>
+		<td>Llangybi</td>
+	</tr>
+	<tr><!---Row-->
+		<td><img src="Images\Guest.png" alt= "Peter Hollingsworth"/></td></td>
+		<td>Peter Hollingsworth</td>
+		<td>Councillor</td>
+		<td>Llangybi</td>
+	</tr>
+	<tr><!---Row-->
+		<td><img src="Images\Jim_Greenland.JPG" alt= "Jim Greenland"/></td></td>
+		<td>Jim Greenland</td>
+		<td>Councillor</td>
+		<td>Llandegfedd</td>
+	</tr>
+	
+	<tr><!---Row-->
+		<td><img src="Images\Guest.png" alt= "Dorothy McLeod"/></td></td>
+		<td>Dorothy McLeod</td>
+		<td>Councillor</td>
+		<td>Coed-y-Paen</td>
+	</tr>
+	<tr><!---Row-->
+		<td><img src="Images\Guest.png" alt= "Vacant Position"/></td></td>
+		<td>Vacant Position</td>
+		<td>Councillor</td>
+		<td>-------</td>
+	</tr>	
+</table>
+</div>	
+<p>To find out more about our vacant position, please email Clerk Alan Browne <a href="mailto:alanbrowne1@hotmail.com?Subject=Llangybi%20Community%20Council%20vacant%20position" target="_top">(alanbrowne1@hotmail.com)</a></p> 
+<hr />
+<div id="Minutes">
+<h2> Minutes </h2>
+<p>The areas covered in each meeting can be found by downloading the associated document(s)</p>
+</div>
+<div id="mins">
+<table>
+	<tr>
+	<td>February 16th 2016 </td>
+	<td><a href="Documents\February 16 Summary Minutes.doc" download><img  border="0" src="Images\Download Minutes.png" alt="Download Map" width="150" height="auto"/></a></td>
+	</tr>
+	<tr>
+	<td>January 19th 2016</td>
+	<td><a href="Documents\January 16 Minutes.doc" download><img  border="0" src="Images\Download Minutes.png" alt="Download Map" width="150" height="auto"/></a></td>
+	</tr>
+</table>
+</div>
+<p>Further minutes for 2015 can be obtained by contacting Alan Browne, Clerk <a href="mailto:alanbrowne1@hotmail.com?Subject=Llangybi%20Community%20Council%20Query" target="_top">(alanbrowne1@hotmail.com)</a></p>
+<hr />
+<div id="PlanningApplications">
+<h2> Planning Applications </h2>
+</div>
+<div id="plan">
+<p> All planning applications can be found on the Monmouthshire County Council website</p>
+<p><a href="http://www.monmouthshire.gov.uk/planning" target="_blank"> Accessed by clicking here </a> (Opens in a new window)</p>
+</div>
+<hr />
+<div id="OtherDoc">
+<h2>Further Documentation</h2>
+<p> Placed here when available...</p>
+</div>
+<div id="documents">
+</div>
+
+<hr />
+<div id="Error">
+<p>If you have found an error or want to make a suggestion, email the administration team<a href="mailto:someone@example.com?Subject=Llangybi%20Community%20Council%20Error%20or%20Suggestion" target="_top"> here</a></p>
+</div>
+<!---Footer start-->
+
+<hr />
+<div id="footer">
+<img src="Images\Designed and created by.png" alt="Dale Website Design Logo" width="200" height="auto" />
+<p>Whilst every attempt is made to verify the information submitted for inclusion on this website, no responsibility can be accepted for any inaccuracies.</p>
+</div>
+<!---Footer End-->
+
+</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+	
+  </body>
+</html>
