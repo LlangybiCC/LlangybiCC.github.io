@@ -1,0 +1,20 @@
+h1, h2, p{
+	text-align: center;
+}
+a{
+	color: blue;
+}
+table{
+	width:auto;
+	margin:auto;
+}
+table td, table th{
+	text-align: center;
+	font-size: 120%;
+	font-family: 'Montserrat', sans-serif;
+	border-bottom: 2px solid #111111;
+	border-top: 2px solid #111111;
+	border-left: 2px solid #111111;
+	border-right:2px solid #111111;
+	padding: 10px 10px;
+}

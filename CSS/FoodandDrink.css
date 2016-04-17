@@ -1,0 +1,24 @@
+h1, h2{
+	text-align: center;
+}
+h1, p, h4, b{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+a{
+	color: blue;
+}
+.centre{
+	text-align: center;
+}
+#Carpenters a, #farmers a, #Hart a{
+	font-family: 'Montserrat', sans-serif;
+}
+#FoodandDrink{
+	width: 1100px;
+	height: auto;
+}
+#FoodandDrink{
+	display: block;
+	margin: 0px auto;
+}

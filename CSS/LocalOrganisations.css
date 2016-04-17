@@ -1,0 +1,15 @@
+h1, h2, p{
+	text-align: center;
+}
+#organisations a {
+	color: #0000FF;
+}
+a{
+	color: #0000FF;
+}
+#emergency p, #emergency p a {
+	color: #FF0000;
+}
+p {
+	text-indent: initial;
+}

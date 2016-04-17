@@ -1,0 +1,20 @@
+hr{
+	clear: both;
+}
+#oldllangybi, #Churches, #maps{
+	float: left;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+figcaption, p{	
+	text-align: center;
+	font-size: 120%;
+	font-family: 'Montserrat', sans-serif;
+}
+h1, p{
+	text-align: center;
+}
+#photogalleryCollection{
+	margin:auto;
+	width:70%;
+}

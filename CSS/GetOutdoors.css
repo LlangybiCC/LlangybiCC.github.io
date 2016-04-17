@@ -1,0 +1,17 @@
+h1, h2, h4, p{
+	text-align: center;
+}
+a{
+	color: blue;
+}
+img{
+	display: block;
+	margin: 0px auto;
+	max-width:100%;
+	height: auto;
+}
+#CountryCode li{
+	font-size: 100%;
+	font-family: 'Montserrat', sans-serif;
+	list-style-type: circle;	
+}

@@ -1,0 +1,48 @@
+#MeetingDates, #CouncilMembers,#Minutes, #MeetingDates, #PlanningApplications, #OtherDoc, #plan, p {
+	text-align:center;
+}
+#dates, #mins, #plan, documents {
+	font-size: 120%;
+}
+#mins, #dates {
+	line-height: 2.0em;
+}
+#memberstable table{
+	width:auto;
+	margin:auto;
+}
+#memberstable td{
+	text-align: center;
+	font-size: 120%;
+	font-family: 'Montserrat', sans-serif;
+}
+#dates table, #mins table{
+	width: auto;
+	margin:auto;
+}
+#dates td, #mins td{
+	border-bottom: 1px dotted #000000;
+	text-align: center;
+}
+a {
+	color: blue;
+}
+#Error {
+	font-size:70%;
+}
+#memberstable img {
+	width: 200px;
+	height: auto;
+	margin-top: 10px;
+}
+#mins img:hover, #dates img:hover {
+	opacity: 0.6;
+}
+#OtherDoc p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 120%;
+}
+#plan p, #OtherDoc p{
+	font-size: 90%;
+	font-family: 'Montserrat', sans-serif;
+}

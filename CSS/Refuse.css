@@ -1,0 +1,40 @@
+#CentrePage{
+	padding-left: 60px;
+	padding-right: 40px;
+}
+h1 {
+	text-align: center;
+}
+#red, #calendar {
+	color: #FF0000;
+}
+#purple{
+	color: #800080;
+}
+#refuse{
+	float:right;
+}
+#refuse{
+	clear:both;
+}
+#Allrefuse p, #Allrefuse li, #personal, #source, #calendar{
+	font-family: 'Montserrat', sans-serif;
+}
+#refuse{
+	padding-left: 10px;
+}
+a{
+	color: blue;
+}
+#personal{
+	margin-bottom: 10px;
+	border: 2px solid blue;
+	padding: 5px;
+}
+#source{
+	text-align: center;
+}
+.container {
+	display: block;
+	margin: 0px auto;
+}
