@@ -13,5 +13,9 @@ img{
 #CountryCode li{
 	font-size: 100%;
 	font-family: 'Montserrat', sans-serif;
-	list-style-type: circle;	
+	list-style-type: circle;
+
+}
+#CountryCode{
+	padding-left: 30px;
 }
